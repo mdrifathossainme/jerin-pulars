@@ -14,10 +14,10 @@ const NavBar = ({children}) => {
 
 
     return (
-        <div class="drawer drawer-end">
+        <div class="drawer  drawer-end">
         <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
-        <div class="drawer-content flex flex-col">
-          <div class="w-full navbar bg-[#FFF8F5] lg:px-12">
+        <div class="drawer-content flex py-[64x] flex-col">
+          <div class="w-full navbar bg-[#FFF8F5] lg:px-[135px] ">
           <div class="flex-1 px-2 mx-2"><img className='w-[127px] h-[48px]' src={logo} alt='fvn'></img></div>
             <div class="flex-none lg:hidden">
                   <label for="my-drawer-3" class="btn btn-square btn-ghost">
