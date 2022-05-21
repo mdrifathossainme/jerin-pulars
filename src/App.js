@@ -2,7 +2,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
-import { PublicRoute } from './routes/MenuRouts';
 import Home from "./Pages/Home/Home"
 import ContactUs from "./Pages/ContactUs/ContactUs"
 import LogIn from "./Pages/LogIn/LogIn"
